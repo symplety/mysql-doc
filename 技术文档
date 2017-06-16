@@ -1,4 +1,4 @@
-```mysql
+```sql
 use stu;
 drop table student cascade;
 create table Students 
@@ -35,3 +35,4 @@ create table School
     pna varchar(50),
     primary key (Id)  
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+```
